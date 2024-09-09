@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Tony Stark",
+        "aka": "Iron Man",
+        "imgId": "1Y5JGYVjCEtnw6NES00mhUxTzEw00M024"
+    },
+    {
+        "id": 2,
+        "name": "Bucky Barnes",
+        "aka": [
+            "Winter Soldier",
+            "White Wolf"
+        ],
+        "imgId": "1aRr3jJXPT4zlWf7ZYEZIcg9ah21TAGJe"
+    },
+    {
+        "id": 3,
+        "name": "Bruce Banner",
+        "aka": "The Incredible Hulk",
+        "imgId": "1u8Q-rG_IMtJ4zrxVjNU7NYFg36w42x0y"
+    },
+    {
+        "id": 4,
+        "name": "The Incredible Hulk",
+        "aka": null,
+        "imgId": "1nAB0k3rOTMHvlb22g-V5KqTnldSP5xuH"
+    },
+    {
+        "id": 5,
+        "name": "Iron Man",
+        "aka": null,
+        "imgId": "1773hK8ODrOhe-4zMcsQaM0rTOsD1vyUV"
+    }
+]
