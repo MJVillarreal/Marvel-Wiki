@@ -1,14 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import "./globals.css"
+import "./assets/globals.css";
 
-import Home from "./components/home";
-import Character from "./components/character";
+import Home from "./pages/home";
+import Character from "./pages/character";
 
 export default function Index() {
-
-if (typeof window === "undefined") {
+  if (typeof window === "undefined") {
     return null;
   }
 
