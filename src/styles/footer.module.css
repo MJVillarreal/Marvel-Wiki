@@ -1,0 +1,22 @@
+.footerContainer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLogo {
+    width: 6rem;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.footerIcon {
+    color: var(--secondary-color);
+}
