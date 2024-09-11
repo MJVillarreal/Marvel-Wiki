@@ -3,7 +3,8 @@
         "id": 1,
         "name": "Tony Stark",
         "aka": "Iron Man",
-        "imgId": "1Y5JGYVjCEtnw6NES00mhUxTzEw00M024"
+        "imgId": "1Y5JGYVjCEtnw6NES00mhUxTzEw00M024",
+        "description": "Lorem ipsum TONY dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 2,
@@ -12,24 +13,28 @@
             "Winter Soldier",
             "White Wolf"
         ],
-        "imgId": "1aRr3jJXPT4zlWf7ZYEZIcg9ah21TAGJe"
+        "imgId": "1aRr3jJXPT4zlWf7ZYEZIcg9ah21TAGJe",
+        "description": "Lorem ipsum BUCKY dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 3,
         "name": "Bruce Banner",
         "aka": "The Incredible Hulk",
-        "imgId": "1u8Q-rG_IMtJ4zrxVjNU7NYFg36w42x0y"
+        "imgId": "1u8Q-rG_IMtJ4zrxVjNU7NYFg36w42x0y",
+        "description": "Lorem ipsum BRUCE dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 4,
         "name": "The Incredible Hulk",
         "aka": null,
-        "imgId": "1nAB0k3rOTMHvlb22g-V5KqTnldSP5xuH"
+        "imgId": "1nAB0k3rOTMHvlb22g-V5KqTnldSP5xuH",
+        "description": "Lorem ipsum HULK dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "id": 5,
         "name": "Iron Man",
         "aka": null,
-        "imgId": "1773hK8ODrOhe-4zMcsQaM0rTOsD1vyUV"
+        "imgId": "1773hK8ODrOhe-4zMcsQaM0rTOsD1vyUV",
+        "description": "Lorem ipsum IRON MAN dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]

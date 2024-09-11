@@ -1,0 +1,57 @@
+.characterCard {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    width: 90%; 
+    margin: 0 auto; 
+    height: 25rem; 
+  }
+  
+  .characterDetails {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    text-align: left;
+    padding-right: 1rem; 
+  }
+
+  .characterDetails h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    ;
+  }
+  
+  .characterAka {
+    font-style: italic;
+    color: #555;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .characterDescription {
+    color: #333;
+    font-size: 0.9rem;
+    margin-top: auto; 
+    margin-bottom: 10rem;
+  }
+  
+  .characterImageContainer {
+    flex: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .characterImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
