@@ -1,40 +1,170 @@
 [
     {
         "id": 1,
-        "name": "Tony Stark",
-        "aka": "Iron Man",
-        "imgId": "1Y5JGYVjCEtnw6NES00mhUxTzEw00M024",
-        "description": "Lorem ipsum TONY dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "name": "Iron Man",
+        "aka": null,
+        "imgId": "1xyla0IkvwHMjhOAa8DluE2nDpW48o9A_",
+        "description": "Iron Man, aka Tony Stark, is a brilliant billionaire inventor and philanthropist. After a life-changing experience being held captive and constructing a suit of powered armor to escape, Stark uses his technological genius to become the armored superhero Iron Man. Known for his sharp wit, complex personality, and leadership in the Avengers, Stark's journey is one of redemption, self-discovery, and sacrifice."
     },
     {
         "id": 2,
-        "name": "Bucky Barnes",
-        "aka": [
-            "Winter Soldier",
-            "White Wolf"
-        ],
-        "imgId": "1aRr3jJXPT4zlWf7ZYEZIcg9ah21TAGJe",
-        "description": "Lorem ipsum BUCKY dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-        "id": 3,
-        "name": "Bruce Banner",
-        "aka": "The Incredible Hulk",
-        "imgId": "1u8Q-rG_IMtJ4zrxVjNU7NYFg36w42x0y",
-        "description": "Lorem ipsum BRUCE dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-        "id": 4,
         "name": "The Incredible Hulk",
         "aka": null,
         "imgId": "1nAB0k3rOTMHvlb22g-V5KqTnldSP5xuH",
-        "description": "Lorem ipsum HULK dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description": "The Hulk, aka Bruce Banner, is a brilliant scientist. Banner's life is transformed when a gamma radiation experiment goes awry, causing him to turn into the Hulk—a colossal, green-skinned powerhouse with superhuman strength and durability—when he experiences intense anger or stress. His journey is one of balancing his scientific intellect with the uncontrollable power within him."
+    },
+    {
+        "id": 3,
+        "name": "Captain America",
+        "aka": null,
+        "imgId": "18NzwroAEt46Xkr-Lx63KJ7ae8a26dDvA",
+        "description": "Captain America, aka Steve Rogers, is a determined World War II soldier who becomes a super-soldier through a transformative serum. He wields a vibranium shield and fights against tyranny with unwavering bravery and a strong moral compass. After being frozen in ice and thawed out decades later, he adapts to the modern world while continuing to lead and protect as a key member of the Avengers."
+    },
+    {
+        "id": 4,
+        "name": "Hawkeye",
+        "aka": null,
+        "imgId": "1nLLdBWCqozFhmhc-2gzeSTHQErNeaQvY",
+        "description": "Hawkeye, aka Clint Barton, is a skilled archer and master marksman with exceptional precision. A former S.H.I.E.L.D. agent, he is known for his tactical expertise and sharp instincts. Although he lacks superpowers, his agility, expertise with various weapons, and unyielding commitment to his family and allies make him a crucial member of the Avengers."
     },
     {
         "id": 5,
-        "name": "Iron Man",
+        "name": "Black Widow",
         "aka": null,
-        "imgId": "1773hK8ODrOhe-4zMcsQaM0rTOsD1vyUV",
-        "description": "Lorem ipsum IRON MAN dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "imgId": "1VNWOZ_MRaNZQt0JA7ZQNcUiT-znfcTbC",
+        "description": "Black Widow, aka Natasha Romanoff, is a highly trained spy and assassin with exceptional combat skills, agility, and intelligence. A former operative of the KGB and S.H.I.E.L.D., she has a complex past marked by espionage and redemption. Known for her resourcefulness and sharp strategic mind, Black Widow plays a key role in the Avengers, using her expertise to tackle threats and protect her team while seeking to atone for her past actions."
+    },
+    {
+        "id": 6,
+        "name": "Thor",
+        "aka": null,
+        "imgId": "1YxcJCA9XsEJay5gqVy_UdfK36a2kBkxz",
+        "description": "Thor is the Norse God of Thunder and the prince of Asgard. Known for his immense strength, control over lightning, and his iconic enchanted hammer, Mjölnir, Thor is a warrior with a regal demeanor and a sense of duty. Throughout his journey, Thor grapples with his royal legacy, seeks to protect his homeland and the universe, and learns the true meaning of leadership and sacrifice."
+    },
+    {
+        "id": 7,
+        "name": "Scarlet Witch",
+        "aka": null,
+        "imgId": "1748H-6VBbJ5-BvijuA6H3X4rD5uMcEB9",
+        "description": "Scarlet Witch, aka Wanda Maximoff, is a powerful sorceress with reality-warping abilities and telekinesis. Initially introduced as an antagonist, she evolves into a complex character driven by grief and a desire for control over her own life. Her powers make her one of the most formidable heroes, and she grapples with the consequences of her abilities while seeking to protect those she loves and find her place in the world."
+    },
+    {
+        "id": 8,
+        "name": "Spiderman",
+        "aka": null,
+        "imgId": "1FKhZ9D9nxuTn2QZaMDzgwlQu0bzLXkxZ",
+        "description": "Spider-Man, aka Peter Parker, is a teenage superhero with spider-like abilities, including wall-crawling, enhanced agility, and a 'spider-sense' for danger. After being bitten by a radioactive spider, Peter balances the challenges of high school with his responsibilities as Spider-Man. Known for his youthful enthusiasm, wit, and sense of responsibility, he strives to live up to the motto 'with great power comes great responsibility'."
+    }, 
+    {
+        "id": 9,
+        "name": "Vision",
+        "aka": null,
+        "imgId": "12yTryRTcck7HXdeG9wIrXDaXBR8IBCDZ",
+        "description": "Vision is an artificial being created from a combination of advanced technology and mystical elements. Initially born from the merging of JARVIS (Tony Stark's AI) and the Mind Stone, Vision possesses superhuman strength, density manipulation, and the ability to phase through solid objects. With a philosophical and compassionate outlook, he seeks to understand humanity while grappling with his own identity and purpose. "
+    },
+    {
+        "id": 10,
+        "name": "Winter Soldier",
+        "aka": null,
+        "imgId": "1UhSIVMXg2Es5bD6BZvNaH9JVxwwHYAo3",
+        "description": "Winter Soldier is the codename given to Bucky Barnes during his time as a brainwashed operative of Hydra. As the Winter Soldier, he is an elite assassin with enhanced strength, agility, and combat skills due to experimental treatments. His left arm is a highly advanced, cybernetic prosthetic that grants him additional strength and durability. Known for his proficiency in covert operations and his ruthless efficiency, the Winter Soldier is a formidable opponent who is deeply conflicted by his fractured memories and the manipulation he endured. "
+    },
+    {
+        "id": 11,
+        "name": "Falcon",
+        "aka": null,
+        "imgId": "1lARYEQUD1URUsVhIuo6hKQX5KZYfVx9a",
+        "description": "Falcon, aka Sam Wilson, is a skilled former Air Force pararescue officer equipped with a high-tech winged suit that allows him to fly. Known for his tactical acumen, leadership abilities, and strong sense of justice, Falcon becomes a key ally of Captain America and the Avengers."
+    },
+    {
+        "id": 12,
+        "name": "Doctor Strange",
+        "aka": null,
+        "imgId": "1WWz8NnyLO9MXBvotYGPv3bSaM-Kpo-bJ",
+        "description": "Doctor Strange, aka Stephen Strange, is a brilliant but arrogant neurosurgeon who turns to the mystic arts after a devastating car accident damages his hands and ends his surgical career. Trained by the Ancient One, he becomes a powerful sorcerer with abilities to manipulate time, space, and reality. With his vast knowledge of magic and his role as the Sorcerer Supreme, Doctor Strange defends Earth from mystical and otherworldly threats."
+    },
+    {
+        "id": 13,
+        "name": "Black Panther",
+        "aka": null,
+        "imgId": "1493GKfnaCdS1nXCDMqQESmNANKBRvcds",
+        "description": "Black Panther, aka T'Challa, is the king of Wakanda, a technologically advanced and secretive African nation. As the Black Panther, he dons a suit made of vibranium and possesses enhanced strength, agility, and senses. T'Challa is a noble and wise leader dedicated to protecting his people and upholding justice."
+    },
+    {
+        "id": 14,
+        "name": "War-Machine",
+        "aka": null,
+        "imgId": "12TfMZsvpaDdnrkLqZ2Q0I72M1I7YlxMy",
+        "description": "War Machine, aka James Rhodes, is a high-ranking military officer and close friend of Tony Stark. Equipped with an advanced armored suit similar to Iron Man’s, Rhodes possesses formidable firepower and combat capabilities. Known for his strong sense of duty, loyalty, and strategic mind, War Machine plays a crucial role in various Avengers missions and is a steadfast ally in the fight against global threats."
+    },
+    {
+        "id": 15,
+        "name": "Ant Man",
+        "aka": null,
+        "imgId": "1i3pMvKjjWaIPimZhmFX_kRw30_1QY5m0",
+        "description": "Ant-Man, aka Scott Lang, is a skilled thief who becomes a superhero after stealing a special suit that allows him to shrink to the size of an ant while retaining his full strength. With the ability to communicate with and control ants, Scott uses his newfound powers to pull off daring heists and fight crime."
+    },
+    {
+        "id": 16,
+        "name": "The Wasp",
+        "aka": null,
+        "imgId": "14phsY8Rp1v-R1S44Ldrs-NjNbBHGtmtw",
+        "description": "Wasp, aka Hope van Dyne, is a brilliant scientist and skilled combatant who, like Ant-Man, uses a suit that allows her to shrink and fly. She inherits her mother’s legacy as the Wasp and is known for her agility, advanced weaponry, and tactical prowess. Hope plays a crucial role in advancing the technology behind the shrinking suits and often partners with Ant-Man to tackle various threats."
+    },
+    {
+        "id": 17,
+        "name": "Loki",
+        "aka": null,
+        "imgId": "1myqVCCTX_sVtdwousc8e6PE1awlauIzD",
+        "description": " Loki is the God of Mischief and the adopted brother of Thor. Known for his cunning, shape-shifting abilities, and mastery of sorcery, Loki is a complex character who oscillates between villain and anti-hero. He is often driven by a desire for power and recognition, which puts him at odds with his family and the Avengers. Despite his mischievous nature and ambition, Loki exhibits moments of vulnerability and complexity, revealing a deeper struggle with his identity and relationships."
+    },
+    {
+        "id": 18,
+        "name": "Star-Lord",
+        "aka": null,
+        "imgId": "1xei1NIRDcjuoXM0lQrFxBJONpRH5FrBH",
+        "description": "Star-Lord, aka Peter Quill, is a charismatic and witty space adventurer who leads the Guardians of the Galaxy. Abducted from Earth as a child and raised by a group of intergalactic thieves, he is known for his love of 1980s pop culture and his eclectic mix of humor and bravado. Equipped with advanced technology and weaponry, Star-Lord's journey involves forming unlikely alliances, battling cosmic threats, and discovering his own sense of responsibility as a leader and hero."
+    },
+    {
+        "id": 19,
+        "name": "Gamora",
+        "aka": null,
+        "imgId": "1EJoYU0GHubdLDrUdtbR48dAiX5mcaXAA",
+        "description": "Gamora is a formidable warrior and the last of her species, the Zen-Whoberis, after her planet was destroyed. Raised by the villain Thanos and trained as an assassin, she possesses superhuman strength, agility, and combat skills. Despite her dark past, Gamora seeks redemption and aligns herself with the Guardians of the Galaxy, striving to protect the universe from threats and find her own path to justice."
+    },
+    {
+        "id": 20,
+        "name": "Rocket Racoon",
+        "aka": null,
+        "imgId": "1qFLBXCFIdt8XP-gNof8z5Of35tvP7a8n",
+        "description": "Rocket Raccoon is a genetically modified raccoon with exceptional intelligence, engineering skills, and a penchant for weaponry. Known for his sharp wit, sarcasm, and gruff demeanor, Rocket is a skilled pilot and tech expert who plays a key role in the Guardians of the Galaxy. His tough exterior masks a deeper vulnerability and a desire for acceptance, making him a complex and beloved character within the team."
+    },
+    {
+        "id": 21,
+        "name": "Groot",
+        "aka": null,
+        "imgId": "1SD2Ikrz3qirwvtUL2sTFlY2feg8XtE9N",
+        "description": "Groot is a sentient, tree-like creature with the ability to manipulate and control plant matter. Known for his limited vocabulary, 'I am Groot', he is capable of growing, regenerating, and extending his limbs to enormous lengths. Despite his simple speech, Groot displays profound loyalty, bravery, and a deep connection with his friends, particularly Rocket Raccoon. His gentle nature and selfless acts of heroism make him a beloved member of the Guardians of the Galaxy."
+    },
+    {
+        "id": 22,
+        "name": "Drax",
+        "aka": null,
+        "imgId": "1QvyCgj-ym1xR9sfcnVH9A0lIUg72_Mvr",
+        "description": "Drax the Destroyer is a formidable warrior driven by a quest for vengeance against the villain who destroyed his family. Characterized by his literal interpretation of language and his intense focus on defeating his enemies, Drax possesses superhuman strength and durability. His deep sense of loss and desire for justice are central to his character, but he also has moments of unexpected humor and camaraderie with his fellow Guardians"
+    },
+    {
+        "id": 23,
+        "name": "Mantis",
+        "aka": null,
+        "imgId": "1JmEMkG_RYUPsq28C-EqYHz6Mawzdmg5x",
+        "description": "Mantis is a benevolent alien empath with the ability to sense and manipulate emotions. Originating from a race of beings who serve as caretakers of the universe, she has the power to make others feel intense emotions or even put them to sleep. Mantis joins the Guardians of the Galaxy, where her empathic abilities and gentle demeanor complement the team."
+    },
+    {
+        "id": 24,
+        "name": "Captain Marvel",
+        "aka": null,
+        "imgId": "1fnghzQoTC34LmaQ565rdGJa9wSKIrSH-",
+        "description": "Captain Marvel, aka Carol Danvers, is a former U.S. Air Force pilot who becomes one of the universe's most powerful heroes after an accident involving alien technology gives her superhuman strength, energy projection, and the ability to fly. Known for her resilience, leadership, and determination, Carol balances her military discipline with her role as a cosmic superhero."
     }
 ]
