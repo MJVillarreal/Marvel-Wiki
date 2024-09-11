@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import styles from "../../styles/characterCard.module.css";
 
+import EastIcon from "@mui/icons-material/East";
+
 const BASE_URL = "https://drive.google.com/thumbnail";
 
 const CharacterCard = ({ imgId, name, aka, description, id }) => {
@@ -12,10 +14,11 @@ const CharacterCard = ({ imgId, name, aka, description, id }) => {
     <div className={styles.characterCard}>
       <div className={styles.characterDetails}>
         <h3>{name}</h3>
-        {aka && <p className={styles.characterAka}>AKA: {aka}</p>}
+        {/* {aka && <p className={styles.characterAka}>AKA: {aka}</p>} */}
         <p className={styles.characterDescription}>{description}</p>
         <Link to={`/character/${id}`} className={styles.learnMoreButton}>
-          <p className={styles.learnMoreButton}>Learn more</p>
+          LEARN MORE
+          <EastIcon className={styles.learnMoreArrow} />
         </Link>
       </div>
       <div className={styles.characterImageContainer}>

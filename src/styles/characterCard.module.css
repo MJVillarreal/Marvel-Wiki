@@ -10,11 +10,23 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
-    gap: 3rem;
+    gap: 2.5rem;
     text-align: justify;
     padding-left: 5rem;
   }
 
+  .characterDetails h3 {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .characterDescription {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
   .characterImageContainer {
     flex: 50%;
     height: 100%;
@@ -28,4 +40,45 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  .learnMoreButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    
+    border: solid;
+    border-color: black ;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1.2rem; 
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .learnMoreButton:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .learnMoreArrow {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .learnMoreButton:hover .learnMoreArrow {
+    color: var(--primary-color); 
+    animation: bounce 0.8s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(5px); /* Moves the arrow 5px to the right */
+    }
   }

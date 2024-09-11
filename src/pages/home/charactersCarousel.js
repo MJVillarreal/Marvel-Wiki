@@ -5,15 +5,18 @@ import "../../assets/slick.css";
 import "../../assets/slick-theme.css";
 import styles from "../../styles/characterCarousel.module.css";
 
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+
 import CharacterCard from "../../components/charactersCarousel/characterCard";
 import data from "../../data/characters.json";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
+    <KeyboardArrowRightIcon
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, fontSize: "3rem", color: "black", zIndex: "1" }} // Customize size and color
       onClick={onClick}
     />
   );
@@ -22,9 +25,9 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
+    <KeyboardArrowLeftIcon
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style, fontSize: "3rem", color: "black", zIndex: "1" }} // Customize size and color
       onClick={onClick}
     />
   );
