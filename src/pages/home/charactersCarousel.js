@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Slider from "react-slick";
 import "../../assets/slick.css";
 import "../../assets/slick-theme.css";
+import styles from "../../styles/characterCarousel.module.css";
 
 import CharacterCard from "../../components/charactersCarousel/characterCard";
-import data from "../../data/characters.json"
+import data from "../../data/characters.json";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -31,9 +31,7 @@ function SamplePrevArrow(props) {
 }
 
 const CharactersCarousel = () => {
-
   const settings = {
-    dots: true,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -41,22 +39,21 @@ const CharactersCarousel = () => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
   };
 
   return (
-    <div>
-      <Slider {...settings}>
+    <div className={styles.sliderContainer}>
+      <Slider {...settings} className={styles.slider}>
         {data.map((character) => (
           <div key={character.id}>
-            <Link to={`/character/${character.id}`}>
-              <CharacterCard
-                imgId={character.imgId}
-                name={character.name}
-                aka={character.aka}
-                description={character.description}
-              />
-            </Link>
+            <CharacterCard
+              id={character.id}
+              imgId={character.imgId}
+              name={character.name}
+              aka={character.aka}
+              description={character.description}
+            />
           </div>
         ))}
       </Slider>
