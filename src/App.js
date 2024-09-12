@@ -5,6 +5,7 @@ import "./assets/globals.css";
 
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
+import Movie from "./pages/movie";
 import Character from "./pages/character";
 import Footer from "./components/footer";
 
@@ -19,6 +20,7 @@ export default function Index() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/movie/:id" element={<Movie />} />
           <Route path="/character/:id" element={<Character />} />
         </Routes>
       </main>
