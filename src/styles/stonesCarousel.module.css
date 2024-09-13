@@ -1,0 +1,24 @@
+.container {
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 25rem;
+    background-color: black;
+}
+
+.gallery {
+    position: relative;
+    width: 10rem;
+    transform-style: preserve-3d;
+    transform: perspective(2000px) rotateX(0deg) rotateY(0deg);
+    transition: transform 2s ease;
+}
+
+.gallery img {
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    -webkit-box-reflect: below 0.2rem linear-gradient(transparent, transparent, #0005);
+    transform: rotateX(0deg) rotateY(calc(var(--index) * 60deg)) translateZ(25rem);
+}
+

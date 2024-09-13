@@ -7,14 +7,13 @@ import EastIcon from "@mui/icons-material/East";
 
 const BASE_URL = "https://drive.google.com/thumbnail";
 
-const CharacterCard = ({ imgId, name, aka, description, id }) => {
+const CharacterCard = ({ imgId, name, description, id }) => {
   const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}`;
 
   return (
     <div className={styles.characterCard}>
       <div className={styles.characterDetails}>
         <h3>{name}</h3>
-        {/* {aka && <p className={styles.characterAka}>AKA: {aka}</p>} */}
         <p className={styles.characterDescription}>{description}</p>
         <Link to={`/character/${id}`} className={styles.learnMoreButton}>
           LEARN MORE

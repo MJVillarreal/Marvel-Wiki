@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Space Stone",
+        "description": "The Space Stone is one of the six Infinity Stones and has the power to manipulate space. It allows the user to teleport anywhere in the universe, create wormholes, and alter spatial dimensions. The stone is encased in a blue cube known as the Tesseract.",
+        "image": "1GHm1KTBUlk0-AGRnoW8ibhygHljUJIGw"
+    },
+    {
+        "id": 2,
+        "name": "Time Stone",
+        "description": "The Time Stone is one of the six Infinity Stones and grants its user control over time. It can manipulate, accelerate, or reverse time, allowing for time travel and the alteration of past and future events. The stone is housed within the Eye of Agamotto, a mystical artifact worn by Doctor Strange.",
+        "image": "1Nbvo_HDQM7puSBPmxOxhOwqKfSGIEGHo"
+    },
+    {
+        "id": 3,
+        "name": "Soul Stone",
+        "description": "The Soul Stone has the power to control and manipulate souls, both living and deceased. It can capture souls, access the Soul World (a pocket dimension), and influence the essence of life. It’s depicted as an orange gem.",
+        "image": "1WjOpHlXreqRv9eJTW-t8QqF62x4xAMvi"
+    },
+    {
+        "id": 4,
+        "name": "Mind Stone",
+        "description": "The Mind Stone grants the user control over the minds of others, including telepathy and mind control. It also enhances mental capabilities and can be used to create or alter consciousness. Initially, is embedded in Loki’s scepter and later becomes part of Vision’s forehead.",
+        "image": "15Av37PBC-tzbcZhH6Xz4k9ZpNuC5m1Qk"
+    },
+    { 
+        "id": 5,
+        "name": "Power Stone",
+        "description": "The Power Stone amplifies the user’s strength and abilities, and can generate destructive energy blasts. It enhances physical power and can manipulate energy on a cosmic scale.",
+        "image": "1kQ1I8WUDxzX45-14Bax1XoZUVyUBtsCG"
+    },
+    {
+        "id": 6,
+        "name": "Reality Stone",
+        "description": "The Reality Stone, also known as the Aether, can alter reality itself, changing physical laws and reshaping existence according to the user’s will. It’s red in color and can create illusions or transform matter.",
+        "image": "1CJn5-_7S5tgi98m1_iOA1sySBL_DxRUK"
+    }
+]
