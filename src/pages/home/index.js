@@ -2,9 +2,7 @@ import React from "react";
 
 import MoviesCarousel from "./moviesCarousel";
 import CharactersCarousel from "./charactersCarousel";
-import StonesCarousel from "./stonesCarousel";
-
-// import styles from "../../styles/home.module.css";
+// import StonesCarousel from "./stonesCarousel";
 
 const Home = () => {
   return (
@@ -12,7 +10,7 @@ const Home = () => {
       <div>
         <MoviesCarousel/>
         <CharactersCarousel />
-        <StonesCarousel />
+        {/* <StonesCarousel /> */}
       </div>
     </>
   );
