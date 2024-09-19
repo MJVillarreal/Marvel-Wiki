@@ -17,7 +17,7 @@ const Character = () => {
     return <Custom404 />;
   }
 
-  const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}`;
+  const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}&sz=w1000-h1000`;
 
   return (
     <div className={styles.characterContainer}>

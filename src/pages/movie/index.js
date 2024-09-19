@@ -1,11 +1,11 @@
 import React from "react";
-
 import { useParams } from "react-router-dom";
+import styles from "../../styles/movie.module.css"
 
 import Custom404 from "./custom404";
 import data from "../../data/movies.json";
 
-const BASE_URL = "https://drive.google.com/thumbnail";
+import MovieCard from "../../components/moviePage/moviecard";
 
 const Movie = () => {
   const { id } = useParams();
@@ -15,12 +15,17 @@ const Movie = () => {
     return <Custom404 />;
   }
 
-  const imageUrl = (posterId) => `${BASE_URL}?id=${posterId}`;
-
   return (
-    <div>
-      <h1>{movie.title}</h1>
-      <img src={imageUrl(movie.poster)} alt={movie.title} />
+    <div className={styles.movieContainer}>
+      <MovieCard
+        id={movie.id}
+        title={movie.title}
+        summary={movie.summary}
+        release={movie.release}
+        duration={movie.duration}
+        poster={movie.poster}
+        rating={movie.rating}
+      />
     </div>
   );
 };

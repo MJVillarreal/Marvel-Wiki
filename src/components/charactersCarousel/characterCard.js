@@ -8,7 +8,7 @@ import EastIcon from "@mui/icons-material/East";
 const BASE_URL = "https://drive.google.com/thumbnail";
 
 const CharacterCard = ({ imgId, name, description, id }) => {
-  const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}`;
+  const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}&sz=w1000-h1000`;
 
   return (
     <div className={styles.characterCard}>
