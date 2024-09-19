@@ -1,10 +1,16 @@
 import React from 'react';
+import styles from "../../styles/custom404.module.css"
+
+import gif from "../../assets/images/ashes.gif"
 
 const Custom404 = () => {
   return (
-    <div>
+    <div className={styles.errorContainer}>
+      <div className={styles.error}>
       <h1>Error 404: Movie not found</h1>
-      <p>The movie with the specified ID does not exist.</p>
+      <h2>The movie with the specified ID does not exist.</h2>
+      <img src={gif} alt=''></img>
+      </div>
     </div>
   );
 };
