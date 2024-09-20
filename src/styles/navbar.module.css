@@ -1,12 +1,17 @@
 .navbarContainer {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbarLogo {
-    width: 6rem;
+  width: 6rem;
 }
+
+.customAutocomplete {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+  }
