@@ -17,7 +17,7 @@
   width: 20rem;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1370px) {
   .navbarLogo {
     width: 6rem;
   }

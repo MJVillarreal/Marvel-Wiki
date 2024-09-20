@@ -11,6 +11,7 @@
 
 body {
   font-family: var(--font-mono);
+  overflow-x: hidden;
 }
 
 * {
