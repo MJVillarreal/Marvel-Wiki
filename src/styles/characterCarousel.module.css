@@ -9,3 +9,9 @@
 .slider {
     width: 90%;
 }
+
+@media (max-width: 1366px) {
+    .slider {
+      width: 80%;
+    }
+}

@@ -1,84 +1,155 @@
 .characterCard {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    height: 25rem; 
-  }
-  
-  .characterDetails {
-    flex: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    gap: 2.5rem;
-    text-align: justify;
-    padding-left: 5rem;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 25rem;
+}
 
-  .characterDetails h3 {
-    font-size: 2rem; 
-    font-weight: bold;
-    margin: 0;
-  }
+.characterDetails {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  text-align: justify;
+  padding-left: 5rem;
+}
 
-  .characterDescription {
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 600;
+.characterDetails h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.characterDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.characterImageContainer {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.characterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.learnMoreButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+
+  border: solid;
+  border-color: black;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.learnMoreButton:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.learnMoreArrow {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.learnMoreButton:hover .learnMoreArrow {
+  color: var(--primary-color);
+  animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
   }
-  
-  .characterImageContainer {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 5rem;
+  100% {
+    transform: translateX(5px); 
   }
-  
-  .characterImage {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+}
+
+@media (max-width: 1300px) {
+  .characterCard {
+    height: 30rem;
   }
 
   .learnMoreButton {
-    display: inline-flex;
-    align-items: center;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .characterCard {
+    display: flex;
     justify-content: center;
-    width: 40%;
-    
-    border: solid;
-    border-color: black ;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    font-size: 1.2rem; 
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
+    flex-direction: column;
+    height: 45rem;
   }
-  
-  .learnMoreButton:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+
+  .characterImageContainer {
+    flex: 40%;
   }
-  
-  .learnMoreArrow {
-    margin-left: 0.5rem;
-    transition: transform 0.3s ease, color 0.3s ease;
+
+  .characterImage {
+    width: 90%;
+    height: 90%;
   }
-  
-  .learnMoreButton:hover .learnMoreArrow {
-    color: var(--primary-color); 
-    animation: bounce 0.8s infinite alternate;
+
+  .characterDetails {
+    display: flex;
+    align-items: center;
+    flex: 60%;
+    gap: 1.5rem;
+    text-align: justify;
   }
-  
-  @keyframes bounce {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(5px); /* Moves the arrow 5px to the right */
-    }
+
+  .learnMoreButton {
+    width: 70%;
   }
+}
+
+@media (max-width: 700px) {
+  .characterCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60rem;
+    gap: 0rem;
+  }
+
+  .characterImageContainer {
+    flex: 70%;
+  }
+
+  .characterImage {
+    width: 90%;
+    height: 90%;
+  }
+
+  .characterDetails {
+    display: flex;
+    align-items: center;
+    flex: 30%;
+    gap: 1rem;
+    text-align: justify;
+  }
+
+  .learnMoreButton {
+    width: 70%;
+  }
+}
