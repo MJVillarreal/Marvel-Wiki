@@ -44,7 +44,6 @@ const Navbar = () => {
           return `${option.type} - ${firstLetter}`;
         }}
         getOptionLabel={(option) => option.label}
-        style={{ width: 300 }}
         renderInput={(params) => (
           <TextField
             {...params}

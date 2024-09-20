@@ -79,7 +79,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(5px); 
+    transform: translateX(5px);
   }
 }
 
@@ -98,16 +98,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 45rem;
+    height: 60rem;
   }
 
   .characterImageContainer {
+    padding-left: 0rem;
     flex: 40%;
   }
 
   .characterImage {
     width: 90%;
     height: 90%;
+    object-fit: contain;
   }
 
   .characterDetails {
@@ -116,6 +118,7 @@
     flex: 60%;
     gap: 1.5rem;
     text-align: justify;
+    padding-left: 0rem;
   }
 
   .learnMoreButton {
@@ -133,6 +136,7 @@
   }
 
   .characterImageContainer {
+    padding-left: 0rem;
     flex: 70%;
   }
 
@@ -147,6 +151,7 @@
     flex: 30%;
     gap: 1rem;
     text-align: justify;
+    padding-left: 0rem;
   }
 
   .learnMoreButton {

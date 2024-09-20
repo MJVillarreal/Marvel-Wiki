@@ -65,7 +65,13 @@ const MoviesCarousel = () => {
         },
       },
       {
-        breakpoint: 350, 
+        breakpoint: 500, 
+        settings: {
+          slidesToShow: 2.5,
+        },
+      },
+      {
+        breakpoint: 400, 
         settings: {
           slidesToShow: 2,
         },
@@ -73,7 +79,7 @@ const MoviesCarousel = () => {
       {
         breakpoint: 250, 
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.5,
         },
       },
     ],
