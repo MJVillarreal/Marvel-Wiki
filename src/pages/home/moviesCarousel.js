@@ -14,13 +14,69 @@ const BASE_URL = "https://drive.google.com/thumbnail";
 const MoviesCarousel = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 8,
+    slidesToShow: 11,
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
     autoplaySpeed: 40,
     cssEase: "linear",
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1600, 
+        settings: {
+          slidesToShow: 9,
+        },
+      },
+      {
+        breakpoint: 1366, 
+        settings: {
+          slidesToShow: 8,
+        },
+      },
+      {
+        breakpoint: 1200, 
+        settings: {
+          slidesToShow: 7,
+        },
+      },
+      {
+        breakpoint: 1100, 
+        settings: {
+          slidesToShow: 6,
+        },
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 750, 
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 600, 
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 350, 
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 250, 
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const imageUrl = (posterId) => `${BASE_URL}?id=${posterId}`;
