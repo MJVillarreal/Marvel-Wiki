@@ -7,7 +7,9 @@ import data from "../../data/characters.json";
 
 import styles from "../../styles/character.module.css";
 
-const BASE_URL = "https://drive.google.com/thumbnail";
+import fall from "../../assets/images/fall.gif"
+
+//const BASE_URL = "https://drive.google.com/thumbnail";
 
 const Character = () => {
   const { id } = useParams();
@@ -17,11 +19,15 @@ const Character = () => {
     return <Custom404 />;
   }
 
-  const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}&sz=w1000-h1000`;
+  //const imageUrl = (imgId) => `${BASE_URL}?id=${imgId}&sz=w1000-h1000`;
 
   return (
     <div className={styles.characterContainer}>
-      <div className={styles.title}>
+      <div className={styles.f}>
+      <h1>Sorry, characters not loaded yet :(</h1>
+      <img src={fall} alt=''></img>
+      </div>
+      {/* <div className={styles.title}>
         <h1>{character.aka}</h1>
         <p>{character.name}</p>
       </div>
@@ -43,7 +49,7 @@ const Character = () => {
           <img src={imageUrl(character.charImg5)} alt={character.name} />
           <img src={imageUrl(character.charImg6)} alt={character.name} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
