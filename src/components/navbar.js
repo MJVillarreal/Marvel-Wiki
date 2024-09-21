@@ -32,35 +32,39 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbarContainer}>
-      <Link to="/">
-        <img src={Logo} alt="logo" className={styles.navbarLogo}></img>
-      </Link>
-
-      <Autocomplete
-      className={styles.customAutocomplete}
-        options={sortedData}
-        groupBy={(option) => {
-          const firstLetter = option.label[0].toUpperCase();
-          return `${option.type} - ${firstLetter}`;
-        }}
-        getOptionLabel={(option) => option.label}
-        renderInput={(params) => (
-          <TextField
-            {...params}
-            label="Search Movies or Characters"
-            variant="outlined"
-          />
-        )}
-        onChange={(event, newValue) => {
-          if (newValue) {
-            if (newValue.type === "Movie") {
-              window.location.href = `/movie/${newValue.id}`;
-            } else if (newValue.type === "Character") {
-              window.location.href = `/character/${newValue.id}`;
+        <Link to="/">
+          <img src={Logo} alt="logo" className={styles.navbarLogo}></img>
+        </Link>
+      <div className={styles.navigation}>
+        <Link to={"movies"} className={styles.allMoviesButton}>
+          All movies
+        </Link>
+        <Autocomplete
+          className={styles.customAutocomplete}
+          options={sortedData}
+          groupBy={(option) => {
+            const firstLetter = option.label[0].toUpperCase();
+            return `${option.type} - ${firstLetter}`;
+          }}
+          getOptionLabel={(option) => option.label}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              label="Search Movies or Characters"
+              variant="outlined"
+            />
+          )}
+          onChange={(event, newValue) => {
+            if (newValue) {
+              if (newValue.type === "Movie") {
+                window.location.href = `/movie/${newValue.id}`;
+              } else if (newValue.type === "Character") {
+                window.location.href = `/character/${newValue.id}`;
+              }
             }
-          }
-        }}
-      />
+          }}
+        />
+      </div>
     </div>
   );
 };
